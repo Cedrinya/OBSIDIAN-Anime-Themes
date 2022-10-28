@@ -74,12 +74,14 @@ Refer to the LICENSE file.
 
 ## Credits
 
-**Darling in the Franxx - Zero Two Theme:**
-(darlinginthefranxx_zerotwo_originall.css & darlinginthefranxx_zerotwo_altered.css)
+### Darling in the Franxx - Zero Two Theme:
+
 Zero Two Sitting at Night GIF by [Sofia_11l](https://tenor.com/users/sofia_11l)
+
 Zero Two Standing Pose IMG by [Unthrottled - Alex Simons](https://github.com/Unthrottled)
 
-**Chainsaw Man - Power Theme:**
-(chainsawman_power_original.css & chainsawman_power_altered.css)
+### Chainsaw Man - Power Theme:
+
 Power & Denji Train GIF by [Myschf](https://tenor.com/users/myschf)
+
 Power Standing Pose IMG by [Steve Pensando](https://villains.fandom.com/wiki/User:Steve_Pensando)
