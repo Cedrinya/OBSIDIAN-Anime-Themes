@@ -1,0 +1,169 @@
+/* Custom Obsidian Theme (Darling in the Franxx - Zero Two Theme) created by Cedrinya */
+/* Credits
+   Zero Two Sitting at Night GIF by: https://tenor.com/users/sofia_11l
+   Zero Two Standing Pose IMG by: https://github.com/Unthrottled */
+
+body {
+    --color-variable01: #bababa;
+    --color-variable02: #dadada;
+    --color-variable03: lightpink;
+    --color-variable03_rgb: 255,182,193;
+    --color-variable04: palevioletred;
+    --image-variable01: url(https://raw.githubusercontent.com/doki-theme/doki-theme-assets/master/backgrounds/zero_two_dark.png);
+    --image-variable02: url(https://raw.githubusercontent.com/doki-theme/doki-theme-assets/master/backgrounds/zero_two_dark.png);
+    --image-variable03: url("https://media.tenor.com/KqyGziKFp6wAAAAC/zero-two-live-wallpaper.gif");
+}
+
+/* IMAGES */
+/* Graph Background */
+.workspace-leaf-content[data-type="graph"] .view-content {
+    z-index: 0;
+}
+.workspace-leaf-content[data-type="graph"] .view-content::after {
+    z-index: -1;
+    content: "";
+    position: fixed;
+    background-image: var(--image-variable01);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotateY(0deg); /* 0deg is the base value or just remove it entirely */
+    transform-origin: 0%; /* 50% is the base value */
+    filter: blur(5px) brightness(50%) saturate(50%);
+    top: 20px;
+    left: 100px;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* Editor Background */
+.workspace-leaf-content[data-type="markdown"] .view-content {
+    z-index: 0;
+}
+.workspace-leaf-content[data-type="markdown"] .view-content::after {
+    z-index: -1;
+    content: "";
+    position: fixed;
+    background-image: var(--image-variable02);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotateY(0deg); /* 0deg is the base value or just remove it entirely */
+    transform-origin: 0%; /* 50% is the base value */
+    filter: blur(5px) brightness(50%) saturate(50%);
+    top: 20px;
+    left: 100px;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* Sidebar Background */
+/* Draw the Background Image */
+.nav-files-container {
+    background-image: var(--image-variable03);
+    background-size: cover;
+    background-position: 50%;
+    border-top: 1px solid var(--background-modifier-border);
+    z-index: 1;
+}
+
+/* Draw a Filter behind the text with adjustable Blur, Brightness and Saturation */
+.nav-files-container:before {
+    content: "";
+    backdrop-filter: blur(4px) brightness(75%) saturate(50%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: block;
+    right: 0;
+}
+
+/* Draw a Gray Background with adjustable Opacity */
+.nav-files-container:after {
+    content: "";
+    background-color: var(--background-secondary); /* Here you can change the Color for the Sidebar Background Overlay */
+    opacity: .80;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: block;
+    top: 43px;
+    right: 0;
+}
+
+/* Adding some seperation to the Sidebar Title and text Shadow.*/
+.nav-folder-title[data-path="/"] {
+    padding-top: 1em;
+}
+
+.nav-folder-title-content, .nav-file-title-content {
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .nav-folder-title-content, .theme-dark .nav-file-title-content {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-folder {
+    position: relative;
+    z-index: 3;
+}
+
+/* TEXT */
+/* The Title of the Note at the Top of the Editor */
+.view-header-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--color-variable03) !important;
+}
+
+/* Folder Bar Text Header */
+.nav-folder.mod-root > .nav-folder-title {
+    font-weight: bold;
+    color: var(--color-variable03) !important;
+}
+
+.workspace-tab-header {
+    color: var(--color-variable01);
+}
+/* OBJECTS & REST TEXT */
+/* Editor Mode --- Line Color */
+.markdown-rendered hr {
+    border-color: var(--color-variable03);
+    border-width: 2px;
+    opacity: .80;
+}
+
+/* Changing the List Connection Lines thickness */
+.nav-folder.mod-root .nav-folder > .nav-folder-children {
+    border-width: 2px;
+}
+
+.markdown-source-view.mod-cm6 .cm-indent::before {
+    border-width: 2px;
+}
+
+.markdown-rendered.show-indentation-guide li > ol::before {
+    border-width: 2px;
+}
+
+/* Changing Every Icon Color, Some Text Color - Hover/View Mode */
+body {
+    --interactive-accent: var(--color-variable04);
+    --interactive-accent-hover: var(--color-base-35); /* Settings Menu - Button Hover Color  */
+    --text-on-accent: var(--color-variable01);
+    --text-faint: var(--color-variable03);
+    --text-accent: var(--color-variable03);
+    --text-accent-hover: var(--color-variable04);
+    --inline-title-color: var(--color-variable03);
+    --indentation-guide-color: rgba(var(--color-variable03_rgb), 0.2);
+    --indentation-guide-color-active: rgba(var(--color-variable03_rgb), 0.3);
+    ---titlebar-background: var(--color-variable04);
+}
+
+.theme-dark {
+    --interactive-hover: var(--color-base-35); /* Settings Menu - Button Hover Color  */
+    ---color-base-30: var(--color-variable04);
+    --color-base-70: var(--color-variable02);
+    --color-base-100: var(--color-variable01);
+}
