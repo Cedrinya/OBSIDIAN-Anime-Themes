@@ -12,11 +12,11 @@ My inspiration for creating Themes for Obsidian came from the lack of decent one
 
 ![Example01](readmeAssets/example01.png)
 |:--:| 
-| **Darling in the Franxx - Zero Two Theme** |
+| **Chainsaw Man - Power Theme** |
 
 ![Example02](readmeAssets/example02.png)
 |:--:| 
-| **Chainsaw Man - Power Theme** |
+| **Darling in the Franxx - Zero Two Theme** |
 
 ## How to use
 
