@@ -8,6 +8,16 @@ Note: I will try to keep updating the Themes and I am looking forward to adding 
 
 My inspiration for creating Themes for Obsidian came from the lack of decent ones on the internet that would let me change the background image, text color and other elements easily, so I made my own.
 
+## Theme Preview
+
+![Example01](readmeAssets/example01.png)
+|:--:| 
+| **Darling in the Franxx - Zero Two Theme** |
+
+![Example02](readmeAssets/example02.png)
+|:--:| 
+| **Chainsaw Man - Power Theme** |
+
 ## How to use
 
 Note: Every Theme I create expects you to have **Base color scheme** set to **Dark**. To change this, simply go to **Settings**, click on **"Appearance"**, go to **"Base color scheme"** and change it to **"Dark"**. Plugins are not supported, so if any of those change the UI, you have to fix it yourself.
