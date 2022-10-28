@@ -18,27 +18,6 @@ My inspiration for creating Themes for Obsidian came from the lack of decent one
 |:--:| 
 | **Darling in the Franxx - Zero Two Theme** |
 
-<details>
-<summary></summary>
-
-![PreviewImage01](previewScreenshots/previewscreenshot01.png)
-|:--:| 
-| **Chainsaw Man - Power Theme / Original** |
-  
-![PreviewImage02](previewScreenshots/previewscreenshot02.png)
-|:--:| 
-| **Chainsaw Man - Power Theme / Altered** |
-  
-![PreviewImage03](previewScreenshots/previewscreenshot03.png)
-|:--:| 
-| **Darling in the Franxx - Zero Two Theme / Original** |
-  
-![PreviewImage04](previewScreenshots/previewscreenshot04.png)
-|:--:| 
-| **Darling in the Franxx - Zero Two Theme / Altered** |
-
-</details>
-
 ## How to use
 
 Note: Every Theme I create expects you to have **Base color scheme** set to **Dark**. To change this, simply go to **Settings**, click on **"Appearance"**, go to **"Base color scheme"** and change it to **"Dark"**. Plugins are not supported, so if any of those change the UI, you have to fix it yourself.
