@@ -35,7 +35,7 @@ Note: My goal with this section is to make it as easy as possible for total begi
 
 To create your own Theme, first make a copy of one of mine in the ```vault/.obsidian/snippets``` directory. From here on out, you can simply open that copy with the CSS Editor of your choice and start the Scripting!
 
-It's important to say that if you use any of my templates you have to keep in mind that some images are Horizontal Cropped and others are Vertical cropped. Due to the fact that they use different techniques to define their position on screen, this information can be very important. There is a good chance that your Background Image will be incorrectly positioned or rotated. To solve this issue, simply adjust the variables provided in the **2nd Table**, don't worry, it's not that difficult.
+It's important to say that if you use any of my templates you have to keep in mind that some images are Horizontal cropped and others are Vertical cropped. Due to the fact that they use different techniques to define their position on screen, this information can be very important. There is a good chance that your Background Image will be incorrectly positioned or rotated. To solve this issue, simply adjust the variables provided in the **2nd Table**, don't worry, it's not that difficult.
 
 For every argument listed below, I suggest setting it to something absurd first to see what changes (That's the way I do it myself most of the time).
 
