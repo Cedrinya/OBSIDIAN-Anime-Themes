@@ -60,23 +60,23 @@ Chainsaw Man - Power Theme - Vertical cropped Image
 
 |Argument|Example|Description|
 |-|-|-|
-|`position:`|fixed|Specifies the type of positioning method used for the Editor & Graph Mode Background Image|
-|`background-size:`|cover|Defines the size of the Editor & Graph Mode Background Image|
-|`transform:`|rotateY(180deg)|Rotates the Editor & Graph Mode Background Image|
-|`transform-origin:`|70%|Sets the position for the Editor & Graph Mode Background Image|
-|`background-position:`|50%|Sets the position for the Sidebar Background Image|
-|`top:`|50px|Used with `position:` to set the placement of the Background|
-|`left`|0|Used with `position:` to set the placement of the Background|
-|`right`|0|Used with `position:` to set the placement of the Background|
-|`bottom`|0|Used with `position:` to set the placement of the Background|
+|`position`|fixed|Specifies the type of positioning method used for the Editor & Graph Mode Background Image|
+|`background-size`|cover|Defines the size of the Editor & Graph Mode Background Image|
+|`transform`|rotateY(180deg)|Rotates the Editor & Graph Mode Background Image|
+|`transform-origin`|70%|Sets the position for the Editor & Graph Mode Background Image|
+|`background-position`|50%|Sets the position for the Sidebar Background Image|
+|`top`|50px|Used with `position` to set the placement of the Background|
+|`left`|0|Used with `position` to set the placement of the Background|
+|`right`|0|Used with `position` to set the placement of the Background|
+|`bottom`|0|Used with `position` to set the placement of the Background|
 
 **Image Filter**
 
 |Argument|Example|Description|
 |-|-|-|
-|`filter:`|blur(4px) brightness(75%) saturate(50%)|Applies graphical effects to the Background|
+|`filter`|blur(4px) brightness(75%) saturate(50%)|Applies graphical effects to the Background|
 |`backdrop-filter`|blur(4px) brightness(75%) saturate(50%)|Applies graphical effects to the gray Sidebar Overlay|
-|`opacity:`|0.75|Changes the opacity of of some elements|
+|`opacity`|0.75|Changes the opacity of of some elements|
 
 ## License
 
