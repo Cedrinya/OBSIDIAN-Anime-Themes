@@ -40,8 +40,12 @@ It's important to say that if you use any of my templates you have to keep in mi
 For every argument listed below, I suggest setting it to something absurd first to see what changes (That's the way I do it myself most of the time).
 
 Darling in the Franxx - Zero Two Theme - Horizontal cropped Image
+
 Chainsaw Man - Power Theme - Vertical cropped Image
-(The Sidebar Image is always Vertical)
+
+Chainsaw Man - Makima Theme - Horizontal cropped Image
+
+(The Sidebar Image/Gif is always Vertical)
 
 **Theme Color Palette**
 
@@ -86,12 +90,18 @@ Refer to the LICENSE file.
 
 ### Darling in the Franxx - Zero Two Theme:
 
-Zero Two Sitting at Night GIF by [Sofia_11l](https://tenor.com/users/sofia_11l)
-
 Zero Two Standing Pose IMG by [Unthrottled - Alex Simons](https://github.com/Unthrottled)
+
+Zero Two Sitting at Night GIF by [Sofia_11l](https://tenor.com/users/sofia_11l)
 
 ### Chainsaw Man - Power Theme:
 
+Power Standing Pose IMG by [Steve Pensando](https://villains.fandom.com/wiki/User:Steve_Pensando)
+
 Power & Denji Train GIF by [Myschf](https://tenor.com/users/myschf)
 
-Power Standing Pose IMG by [Steve Pensando](https://villains.fandom.com/wiki/User:Steve_Pensando)
+### Chainsaw Man - Makima Theme:
+
+Makima Foto Pose IMG by: [Mappa](https://www.mappa.co.jp/en/)
+
+Makima Car GIF by: [Mappa](https://www.mappa.co.jp/en/)
